@@ -6,8 +6,9 @@ import (
 	"os"
 	"strings"
 
-	nutsdoDB "nutsdo/db"
-	"nutsdo/types"
+	"github.com/Superredstone/nutsdo/types"
+
+	nutsdoDB "github.com/Superredstone/nutsdo/db"
 
 	"github.com/spf13/cobra"
 )

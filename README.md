@@ -3,5 +3,5 @@ Nutsdo is a cli todo application based on [nutsdb](https://github.com/xujiajun/n
 
 # Installation 
 ```bash
-go install github.com/Superredstone/nutsdo
+go install github.com/Superredstone/nutsdo@latest
 ```

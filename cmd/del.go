@@ -2,9 +2,10 @@ package cmd
 
 import (
 	"fmt"
-	nutsdoDB "nutsdo/db"
 	"os"
 	"strings"
+
+	nutsdoDB "github.com/Superredstone/nutsdo/db"
 
 	"github.com/spf13/cobra"
 	"github.com/xujiajun/nutsdb"

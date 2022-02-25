@@ -3,10 +3,12 @@ package cmd
 import (
 	"encoding/json"
 	"fmt"
-	nutsdoDB "nutsdo/db"
-	"nutsdo/types"
 	"os"
 	"strings"
+
+	"github.com/Superredstone/nutsdo/types"
+
+	nutsdoDB "github.com/Superredstone/nutsdo/db"
 
 	"github.com/spf13/cobra"
 	"github.com/xujiajun/nutsdb"
