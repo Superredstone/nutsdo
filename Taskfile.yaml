@@ -1,0 +1,11 @@
+# https://taskfile.dev
+
+version: '3'
+
+tasks:
+  build:
+    cmds:
+      - mkdir build/
+      - env GOOS=linux GOARCH=amd64 go build -v -o build/nutsdo-linux-amd64 go build .
+      - env GOOS=windows GOARCH=amd64 go build -v -o build/nutsdo-windows-amd64.exe go build . 
+      - env GOOS=darwin GOARCH=amd64 go build -v -o build/nutsdo-darwin-amd-64 go build . 
