@@ -1,4 +1,4 @@
-module nutsdo
+module github.com/Superredstone/nutsdo
 
 go 1.17
 
