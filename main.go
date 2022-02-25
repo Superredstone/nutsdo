@@ -1,7 +1,7 @@
 package main
 
 import (
-	"nutsdo/cmd"
+	"github.com/Superredstone/nutsdo/cmd"
 )
 
 func main() {
